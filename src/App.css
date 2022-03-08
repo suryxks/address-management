@@ -1,0 +1,44 @@
+@import url('https://nectarui.netlify.app/components/css/components.css');
+* {
+  background-color: #fffffe;
+}
+.link-btn {
+  border: 2px solid #e0e0e0;
+  background-color: #fffffe;
+}
+.link-btn:hover {
+  border: 2px solid #e0e0e0;
+  background-color: #fffffe;
+  color: var(--cta);
+}
+.address-form {
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 1rem;
+  padding: 1rem;
+}
+.address {
+  grid-column: 1/-1;
+  min-height: 100px;
+}
+.address-form > input {
+  font-size: 1.5rem;
+  outline: none;
+  border: 0.7px solid grey;
+  border-radius: 0.2rem;
+}
+.address-form > textarea {
+  font-size: 1.5rem;
+  outline: none;
+  border: 1px solid grey;
+  border-radius: 0.2rem;
+}
+.cta {
+  background-color: var(--cta);
+  border: none;
+}
+.buttons {
+  display: flex;
+  gap: 1rem;
+  justify-content: flex-start;
+}
